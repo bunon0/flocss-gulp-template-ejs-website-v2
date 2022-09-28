@@ -8,6 +8,7 @@
 	},
 	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"prettier.ignorePath": "./dev/.prettierignore",
 
 	"[markdown]": {
 		"editor.formatOnSave": false
@@ -20,15 +21,15 @@
 	"eslint.workingDirectories": [{ "mode": "auto" }],
 
 	"cSpell.ignorePaths": [
-		"**/package.json",
-		"**/package-lock.json",
-		"**/yarn.lock",
-		"**/node_modules/**",
-		"**/webpack.config.js",
-		"**/.vscode/",
-		"**/settings.json",
-		"**/gulpfile.js",
-		"src/js/libs",
-		"src/scss/libs"
+		".vscode/",
+		"dev/**/package.json",
+		"dev/**/package-lock.json",
+		"dev/**/yarn.lock",
+		"dev/**/node_modules/",
+		"dev/**/webpack.config.js",
+		"dev/**/gulpfile.js",
+		"dev/assets/js/libs/",
+		"dev/assets/css/libs/",
+		"dev/assets/scss/libs/"
 	]
 }
